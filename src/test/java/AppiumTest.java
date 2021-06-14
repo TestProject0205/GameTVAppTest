@@ -37,10 +37,10 @@ public class AppiumTest {
         Thread.sleep(20000);
         ElementXPath elxpath = new ElementXPath();
         MobileElement insertUsernameElement = driver.findElementByXPath(elxpath.USERNAME_INPUT);
-        insertUsernameElement.sendKeys("sparya60@gmail.com");
+        insertUsernameElement.sendKeys("dummytwitter@gmail.com");
 
         MobileElement insertPasswordElement = driver.findElementByXPath(elxpath.PASSWORD_INPUT);
-        insertPasswordElement.sendKeys("61464964");
+        insertPasswordElement.sendKeys("dummy-password");
 
         MobileElement authorizeElement = driver.findElementByXPath(elxpath.TWITTER_ALLOW_BUTTON);
         authorizeElement.click();
